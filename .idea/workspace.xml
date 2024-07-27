@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a7dbdc73-19b5-4367-b437-9fc21e979e5c" name="Changes" comment="base: initial set up, ready to write test case&#10;- Add essential constants&#10;- Implement Test Listener&#10;- Add test config&#10;- Implement basic Helpers, Utils, Exceptions, Enums and Annotations&#10;- Add Dockerfile to deploy the tests in any platforms">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/nam/core/models/SignIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/nam/core/pages/SignInPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/nam/testcases/AdminFeaturesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/nam/core/models/LogIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/nam/core/pages/LogInPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/nam/testcases/AuthFeaturesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/nam/testcases/AuthFeaturesTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/NamSellsFish/CRMAppTests.git",
+    "accountId": "dd4b6aba-84c5-40fd-8c40-039ed085feae"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/corretto-21.0.3/lib/src.zip!/java.base/java/lang/UnsupportedOperationException.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/tech/grasshopper/pdfextentreporter/1.3.1/pdfextentreporter-1.3.1.jar!/tech/grasshopper/reporter/ReportGenerator.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2jY8m0Wz01yFfDqwXtwEq48PmZq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.AuthFeaturesTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AuthFeaturesTest.signInWithDataProvider.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/source/repos/AnhTesterCRMAppTests/src/test/resources/config/allure&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\source\repos\AnhTesterCRMAppTests\src\test\resources\config\allure" />
+      <recent name="C:\Users\Lenovo\source\repos\AnhTesterCRMAppTests\src\test\resources\config" />
+      <recent name="C:\Users\Lenovo\source\repos\AnhTesterCRMAppTests\src\test\java\org\nam\common\enums" />
+      <recent name="C:\Users\Lenovo\source\repos\AnhTesterCRMAppTests\src\test\java\org\nam\common\exceptions" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\source\repos\AnhTesterCRMAppTests\src\test\resources\config\gmail" />
+      <recent name="C:\Users\Lenovo\source\repos\AnhTesterCRMAppTests\src\test\resources\config" />
+      <recent name="C:\Users\Lenovo\source\repos\AnhTesterCRMAppTests\src\test\resources\test-data\excel" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.AuthFeaturesTest.signInWithDataProvider">
+    <configuration name="AuthFeaturesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AnhTesterCRMAppTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.nam.common.helpers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.nam.testcases" />
+      <option name="MAIN_CLASS_NAME" value="org.nam.testcases.AuthFeaturesTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthFeaturesTest.signInWithDataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AnhTesterCRMAppTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.nam.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.nam.testcases" />
+      <option name="MAIN_CLASS_NAME" value="org.nam.testcases.AuthFeaturesTest" />
+      <option name="METHOD_NAME" value="signInWithDataProvider" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AuthFeaturesTest.signInWithDataProvider" />
+        <item itemvalue="TestNG.AuthFeaturesTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7dbdc73-19b5-4367-b437-9fc21e979e5c" name="Changes" comment="" />
+      <created>1721552806412</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721552806412</updated>
+    </task>
+    <task id="LOCAL-00001" summary="base: initial set up, ready to write test case&#10;- Add essential constants&#10;- Implement Test Listener&#10;- Add test config&#10;- Implement basic Helpers, Utils, Exceptions, Enums and Annotations&#10;- Add Dockerfile to deploy the tests in any platforms">
+      <option name="closed" value="true" />
+      <created>1722056559174</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722056559174</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="base: initial set up, ready to write test case&#10;- Add essential constants&#10;- Implement Test Listener&#10;- Add test config&#10;- Implement basic Helpers, Utils, Exceptions, Enums and Annotations&#10;- Add Dockerfile to deploy the tests in any platforms" />
+    <option name="LAST_COMMIT_MESSAGE" value="base: initial set up, ready to write test case&#10;- Add essential constants&#10;- Implement Test Listener&#10;- Add test config&#10;- Implement basic Helpers, Utils, Exceptions, Enums and Annotations&#10;- Add Dockerfile to deploy the tests in any platforms" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+</project>
