@@ -1,6 +1,6 @@
 ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
-## Test Automation Framework Selenium Java with TestNG building by Anh Tester
+## Test Automation Project Selenium Java with TestNG building by Nam
 
 🔆 **SOME KEY FEATURES IN FRAMEWORK**
 
